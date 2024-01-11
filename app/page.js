@@ -1,5 +1,5 @@
 "use client"
-import Image from 'next/image'
+
 import React, { useRef } from 'react'
 import toast, { Toaster } from 'react-hot-toast'
 
@@ -59,7 +59,7 @@ function page()
         </div>
         <button type="submit" className='form-input bg-primary text-slate-200 text-lg uppercase tracking-wide'>submit</button>
       </form>
-      <Image src="./ROBN.png" alt="Robins Photography" width="0" height="0" className='mx-auto mt-7 w-[50%] h-auto' />
+      <img src="./ROBN.png" alt="Robins Photography" className='mx-auto mt-7 w-[50%] h-auto' />
       <Toaster />
     </div>
   )
