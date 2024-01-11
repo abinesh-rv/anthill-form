@@ -17,7 +17,7 @@ function page()
   {
     e.preventDefault()
     const formData = new FormData(form.current)
-    const res = await fetch("http://ec2-52-66-176-19.ap-south-1.compute.amazonaws.com:8000/get_selfie", {
+    const res = await fetch("https://ec2-52-66-176-19.ap-south-1.compute.amazonaws.com:8000/get_selfie", {
       method: "POST",
       headers: {
         "Content-Type": "multipart/form-data"
